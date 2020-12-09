@@ -1,0 +1,38 @@
+.sheetRightSection, .sheetRight, .sheetRight-button {
+  display: flex;
+}
+
+.sheetRightSection{
+flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+
+flex-wrap: wrap;
+margin-bottom: 5px;
+width: 100%;
+}
+
+.sheetRight-button{
+flex-direction: row;
+align-items:center;
+justify-content: center;
+
+width: 100%;
+height: 50px;
+margin-right: 5px;
+}
+
+.sheetRightList{
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.sheetItem{
+  width: 150px;
+  height: 150px;
+}
+
